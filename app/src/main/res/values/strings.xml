@@ -1,0 +1,17 @@
+<resources>
+	<string name="app_name">Drinking Time</string>
+
+	<string name="tap_title_text">Tap to get coke \n right at your desk</string>
+	<string name="tap_subtitle_text">Navi-e will bring it to you in just few seconds</string>
+
+	<string name="tab_order">Order</string>
+	<string name="tab_history">History</string>
+	<string name="tab_settings">Settings</string>
+
+	<string name="exit_info">Press back again to exit app.</string>
+
+	<string name="order_placed">Order placed</string>
+	<string name="order_finished">Order arrived</string>
+	<string name="order_in_progress">Order in progress</string>
+
+</resources>

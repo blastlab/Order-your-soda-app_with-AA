@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackground"
+                android:orientation="vertical">
+
+	<lecho.lib.hellocharts.view.LineChartView
+		android:id="@+id/timeChart"
+		android:layout_width="match_parent"
+		android:layout_height="300dp"
+		android:background="@color/buttonBackground"/>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/zoomOutButton"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:layout_alignParentEnd="true"
+		android:layout_below="@+id/timeChart"
+		android:layout_marginEnd="25dp"
+		android:layout_marginTop="-20dp"
+		android:clickable="true"
+		app:srcCompat="@mipmap/zoom_out"/>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/zoomInButton"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:layout_below="@+id/timeChart"
+		android:layout_marginEnd="5dp"
+		android:layout_marginTop="-20dp"
+		android:layout_toStartOf="@+id/zoomOutButton"
+		app:srcCompat="@mipmap/zoom_in"/>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/listview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/timeChart"/>
+</RelativeLayout>
