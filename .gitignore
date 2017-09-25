@@ -1,0 +1,10 @@
+# Android Studio
+.idea
+.gradle
+build/
+local.properties
+*.iml
+
+# Linux
+*~
+.directory
